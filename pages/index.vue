@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <encabezado />
+    <h2>uste sumerce</h2>
     <main_body />
     <pie />
   </div>

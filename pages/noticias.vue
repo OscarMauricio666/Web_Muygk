@@ -1,7 +1,9 @@
 <template>
-  <div id="news">
+  <div id="noticias">
     <encabezado />
-    <h2>Estas son las noticias mas destacadas por ahora</h2>
+    <h2>Estas son laaas noticias mas destacadas por ahora</h2>
+    h1
+    <news />
     <pie />
   </div>
 </template>
@@ -9,11 +11,13 @@
 <script>
 import encabezado from "../components/Encabezado";
 import pie from "../components/pie";
+import news from "../components/news";
 export default {
-  name: "news",
+  name: "noticias",
   components: {
     encabezado,
-    pie
+    pie,
+    news
   }
 };
 </script>

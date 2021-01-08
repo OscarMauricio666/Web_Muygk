@@ -2,7 +2,7 @@
   <div id="clientes">
     <encabezado />
     <h3>Estos son nuestros clientes</h3>
-    <clientes />
+    <customers />
     <pie />
   </div>
 </template>
@@ -10,13 +10,13 @@
 <script>
 import encabezado from "../components/Encabezado";
 import pie from "../components/pie";
-import clientes from "../components/clientes";
+import customers from "../components/customers";
 export default {
   name: "clientes",
   components: {
     encabezado,
     pie,
-    clientes
+    customers
   }
 };
 </script>

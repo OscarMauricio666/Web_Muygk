@@ -1,12 +1,12 @@
 <template>
-  <div id="ascesorias">
-    <h3>acá ascesoriass</h3>
+  <div id="contact">
+    <h3>acá numero de telefono</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ascesorias"
+  name: "contact"
 };
 </script>
 

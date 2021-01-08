@@ -1,7 +1,7 @@
 <template>
   <div id="informacion">
     <encabezado />
-    <h1>aqui se muestran los datos para contactar un formulario</h1>
+    <h1>aqui se muestrran los datos para contactar un formulario</h1>
     <pie />
   </div>
 </template>
@@ -9,11 +9,13 @@
 <script>
 import encabezado from "../components/Encabezado";
 import pie from "../components/pie";
+import nosotros from "../components/nosotros";
 export default {
   name: "informacion",
   components: {
     encabezado,
-    pie
+    pie,
+    nosotros
   }
 };
 </script>
