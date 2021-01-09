@@ -1,11 +1,10 @@
 <template>
   <div id="encabezado">
     <img src="../assets/Logo.png" alt="Logo" />
-    <a href="prueba">PRUEBA</a>
-    <!-- <router-link :to="{ name: 'servicios' }">Servicios</router-link>
-    <router-link :to="{ name: 'nosotros' }">Nosotros</router-link>
-    <router-link :to="{ name: 'clientes' }">Clientes</router-link>
-    <router-link :to="{ name: 'noticias' }">Noticias</router-link> -->
+    <NuxtLink to="clientes">Clientes</NuxtLink>
+    <NuxtLink to="contacto">Contacto</NuxtLink>
+    <NuxtLink to="informacion">Información</NuxtLink>
+    <NuxtLink to="noticias">Noticias</NuxtLink>
   </div>
 </template>
 
@@ -23,8 +22,10 @@ export default {
 <style scoped>
 #encabezado {
   max-height: 10vh;
-  background-color: white;
   border-color: black;
   font-family: "Goldman", cursive;
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
 }
 </style>

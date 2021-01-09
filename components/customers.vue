@@ -1,5 +1,5 @@
 <template>
-  <div id="clientes">
+  <div id="customers">
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni a
       perferendis ipsa fugit excepturi vel commodi nemo dolore quidem
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "clientes"
+  name: "customers"
 };
 </script>
 

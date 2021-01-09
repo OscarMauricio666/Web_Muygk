@@ -2,7 +2,7 @@
   <div id="noticias">
     <encabezado />
     <h2>Estas son laaas noticias mas destacadas por ahora</h2>
-    h1
+    <div>Cindy</div>
     <news />
     <pie />
   </div>
