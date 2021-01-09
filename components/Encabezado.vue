@@ -1,10 +1,12 @@
 <template>
   <div id="encabezado">
     <img src="../assets/Logo.png" alt="Logo" />
-    <NuxtLink to="clientes">Clientes</NuxtLink>
-    <NuxtLink to="contacto">Contacto</NuxtLink>
-    <NuxtLink to="informacion">Información</NuxtLink>
-    <NuxtLink to="noticias">Noticias</NuxtLink>
+    <div class="fuente">
+      <NuxtLink to="clientes">Clientes</NuxtLink>
+      <NuxtLink to="contacto">Contacto</NuxtLink>
+      <NuxtLink to="informacion">Información</NuxtLink>
+      <NuxtLink to="noticias">Noticias</NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -23,7 +25,6 @@ export default {
 #encabezado {
   max-height: 10vh;
   border-color: black;
-  font-family: "Goldman", cursive;
   background-color: black;
   margin: 0%;
   padding: 0%;

@@ -2,10 +2,8 @@
   <div id="clientes">
     <encabezado />
     <h3 class="fuente">
-      Estos son nuestrros clientes Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Aspernatur provident quidem, nemo earum ea voluptate
-      placeat, cupiditate eveniet tempore beatae voluptates numquam consequuntur
-      corporis esse facere magni facilis at nobis.
+      Estos bbbbbb son nuestrros clientes. Almost before we knew it, we had left
+      the ground.
     </h3>
     <customers />
     <pie />

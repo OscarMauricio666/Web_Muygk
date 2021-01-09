@@ -1,6 +1,6 @@
 <template>
   <div id="customers">
-    <p>
+    <p class="fuente">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni a
       perferendis ipsa fugit excepturi vel commodi nemo dolore quidem
       praesentium quo laboriosam repellat dolorem atque quaerat laudantium

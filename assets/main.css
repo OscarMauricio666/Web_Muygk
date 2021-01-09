@@ -1,11 +1,15 @@
 .tran {
-    transition: all 0.4s ease-in;
-    -webkit-transition: all 0.4s ease-in;
-    -moz-transition: all 0.4s ease-in;
-    -ms-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
 }
 .fuente {
-    font-family: 'Goldman', cursive;
-
+  font-family: "Comfortaa", cursive;
+}
+@font-face {
+  font-family: "Goldman", cursive;
+  font-style: normal;
+  src: url("~assets/Goldman-Regular.ttf") format("truetype");
 }

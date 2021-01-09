@@ -8,12 +8,9 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      // {rel="preconnect", href="https://fonts.gstatic.com"},
-      { rel:'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Goldman&display=swap'},
+      //{rel="preconnect", href="https://fonts.gstatic.com"},
+      {href: "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap", rel:"stylesheet"},
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
-    ],    
-    link: [
-      {  }
     ]
   },
 
