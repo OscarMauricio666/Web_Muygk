@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import encabezado from "../components/Encabezado";
-import pie from "../components/pie";
-import contact from "../components/contact";
+import encabezado from "../components/desing/encabezado";
+import pie from "../components/desing/pie";
+import contact from "../components/informacion/contact";
 export default {
   name: "contacto",
   components: {

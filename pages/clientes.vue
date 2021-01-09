@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import encabezado from "../components/Encabezado";
-import pie from "../components/pie";
-import customers from "../components/customers";
+import encabezado from "../components/desing/encabezado";
+import pie from "../components/desing/pie";
+import customers from "../components/informacion/customers";
 export default {
   name: "clientes",
   head: {

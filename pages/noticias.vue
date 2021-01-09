@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import encabezado from "../components/Encabezado";
-import pie from "../components/pie";
-import news from "../components/news";
+import encabezado from "../components/desing/encabezado";
+import pie from "../components/desing/pie";
+import news from "../components/news/news";
 export default {
   name: "noticias",
   components: {
