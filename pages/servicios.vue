@@ -15,14 +15,17 @@ import encabezado from "../components/desing/encabezado";
 import pie from "../components/desing/pie";
 import web from "../components/servicios_componentes/web.vue";
 export default {
+  name: "servicios",
+  head: {
+    title: "Servicios"
+  },
   components: {
     encabezado,
     web,
     Ascesorias,
     Camaras,
     pie
-  },
-  name: "servicios"
+  }
 };
 </script>
 

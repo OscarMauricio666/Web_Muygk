@@ -17,7 +17,7 @@ import customers from "../components/informacion/customers";
 export default {
   name: "clientes",
   head: {
-    title: "Nuestros Clientes"
+    title: "Clientes"
   },
   components: {
     encabezado,

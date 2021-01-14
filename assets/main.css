@@ -5,11 +5,12 @@
   -ms-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
 }
-.fuente {
-  font-family: "Goldman", cursive;
+.fuentee {
+  font-family: "Kufam";
 }
+
 @font-face {
-  font-family: "Goldman", cursive;
+  font-family: "Kufam", cursive;
   font-style: normal;
-  src: url("~assets/Goldman-Regular.ttf") format("truetype");
+  src: url("Kufam-Italic-VariableFont_wght.ttf") format("truetype");
 }

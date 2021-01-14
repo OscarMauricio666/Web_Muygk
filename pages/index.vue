@@ -2,6 +2,17 @@
   <div id="app">
     <encabezado />
     <h2>uste sumerce</h2>
+    <v-btn block><div class="fuente">Buena chino</div></v-btn>
+    <v-btn class="mx-2" fab dark large color="purple">
+      <v-icon dark>
+        mdi-android
+      </v-icon>
+    </v-btn>
+    <p class="fuentee">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex a magnam
+      incidunt aliquam magni perferendis ratione sit provident quam laborum,
+      sapiente dicta illum ducimus rem vel, libero dolores, in animi!
+    </p>
     <main_body />
     <pie />
   </div>
@@ -13,6 +24,15 @@ import main_body from "../components/main_body";
 import pie from "../components/desing/pie";
 export default {
   name: "app",
+  head: {
+    title: "Inicio"
+  },
+  data() {
+    return {
+      colors: ["primary", "secondary", "yellow darken-2", "red", "orange"],
+      model: 0
+    };
+  },
   components: {
     encabezado,
     main_body,
@@ -21,7 +41,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -30,26 +50,7 @@ export default {
   align-items: center;
   text-align: center;
 }
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.fuente {
+  font-family: "Kufman", "cursive";
 }
 </style>

@@ -14,6 +14,9 @@ import pie from "../components/desing/pie";
 import news from "../components/news/news";
 export default {
   name: "noticias",
+  head: {
+    title: "Noticias"
+  },
   components: {
     encabezado,
     pie,

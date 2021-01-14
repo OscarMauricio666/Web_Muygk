@@ -13,6 +13,9 @@ import pie from "../components/desing/pie";
 import nosotros from "../components/informacion/nosotros";
 export default {
   name: "informacion",
+  head: {
+    title: "Información"
+  },
   components: {
     encabezado,
     pie,

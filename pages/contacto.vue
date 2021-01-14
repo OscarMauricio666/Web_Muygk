@@ -13,6 +13,9 @@ import pie from "../components/desing/pie";
 import contact from "../components/informacion/contact";
 export default {
   name: "contacto",
+  head: {
+    title: "Contacto"
+  },
   components: {
     encabezado,
     pie,
