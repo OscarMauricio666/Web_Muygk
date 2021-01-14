@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
 #main_body {
-  height: 100vh;
   width: 100vw;
 }
 </style>

@@ -5,8 +5,8 @@
     </nuxt-link>
     <div class="enlaces">
       <div class="fuente">
-        <NuxtLink to="clientes">Clientes</NuxtLink>
         <NuxtLink to="contacto">Contacto</NuxtLink>
+        <NuxtLink to="clientes">Clientes</NuxtLink>
         <NuxtLink to="informacion">Información</NuxtLink>
         <NuxtLink to="noticias">Noticias</NuxtLink>
       </div>
@@ -34,6 +34,15 @@ export default {
   padding: 0%;
 }
 .enlaces {
-  text-align: right;
+  float: right;
+  margin-top: 3vh;
+  color: beige;
+}
+
+.nuxt-link-active {
+  color: azure;
+}
+a {
+  text-decoration: none;
 }
 </style>
