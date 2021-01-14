@@ -1,15 +1,13 @@
 <template>
-    <div id="camaras">
-
-    </div>
+  <div id="camaras">
+    <h3>mosaico galería de camaás</h3>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'camaras'
-    }
+export default {
+  name: "camaras"
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>

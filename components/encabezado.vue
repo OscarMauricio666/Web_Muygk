@@ -9,6 +9,7 @@
         <NuxtLink to="clientes">Clientes</NuxtLink>
         <NuxtLink to="informacion">Información</NuxtLink>
         <NuxtLink to="noticias">Noticias</NuxtLink>
+        <NuxtLink to="servicios">Servicios</NuxtLink>
       </div>
     </div>
   </div>

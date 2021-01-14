@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import encabezado from "../components/Encabezado";
+import encabezado from "../components/encabezado";
 import pie from "../components/pie";
 import contact from "../components/contact";
 export default {

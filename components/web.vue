@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div class="web">
+    <h2>se diseñan paginas web, ajustadas a tus necesidades</h2>
+  </div>
 </template>
 
 <script>
@@ -8,4 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
