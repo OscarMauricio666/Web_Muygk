@@ -2,6 +2,9 @@
   <div id="app">
     <encabezado />
     <h2>uste sumerce</h2>
+    <v-btn depressed color="error">
+      Error
+    </v-btn>
     <v-btn block><div class="fuente">Buena chino</div></v-btn>
     <v-btn class="mx-2" fab dark large color="purple">
       <v-icon dark>
