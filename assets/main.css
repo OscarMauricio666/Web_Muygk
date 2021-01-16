@@ -11,3 +11,6 @@
 .fuente {
   font-family: var(--fuente_uno);
 }
+.mau {
+  background: green;
+}

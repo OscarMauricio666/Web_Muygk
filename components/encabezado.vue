@@ -1,19 +1,23 @@
 <template>
   <div id="encabezado">
-    <nuxt-link to="/">
-      <div class="logo">
-        <img src="../assets/Logo.png" alt="Logo" />
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <nuxt-link to="/">
+          <div class="logo">
+            <img src="../assets/Logo.png" alt="Logo" />
+          </div>
+        </nuxt-link>
+        <div class="enlaces">
+          <div class="fuente">
+            <NuxtLink to="clientes">Clientes</NuxtLink>
+            <NuxtLink to="informacion">Información</NuxtLink>
+            <NuxtLink to="noticias">Noticias</NuxtLink>
+            <NuxtLink to="servicios">Servicios</NuxtLink>
+            <NuxtLink to="contacto">Contacto</NuxtLink>
+          </div>
+        </div>
       </div>
-    </nuxt-link>
-    <div class="enlaces">
-      <div class="fuente">
-        <NuxtLink to="contacto">Contacto</NuxtLink>
-        <NuxtLink to="clientes">Clientes</NuxtLink>
-        <NuxtLink to="informacion">Información</NuxtLink>
-        <NuxtLink to="noticias">Noticias</NuxtLink>
-        <NuxtLink to="servicios">Servicios</NuxtLink>
-      </div>
-    </div>
+    </nav>
   </div>
 </template>
 
@@ -40,6 +44,7 @@ export default {
   float: right;
   margin-top: 3vh;
   color: beige;
+  align-content: flex-end;
 }
 
 .nuxt-link-active {
