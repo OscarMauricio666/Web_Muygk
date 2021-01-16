@@ -1,7 +1,9 @@
 <template>
   <div id="encabezado">
     <nuxt-link to="/">
-      <img src="../assets/Logo.png" alt="Logo" />
+      <div class="logo">
+        <img src="../assets/Logo.png" alt="Logo" />
+      </div>
     </nuxt-link>
     <div class="enlaces">
       <div class="fuente">
@@ -45,5 +47,8 @@ export default {
 }
 a {
   text-decoration: none;
+}
+.logo {
+  background: yellow;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="contacto">
+  <div class="contacto">
     <encabezado />
     <p>informacion de contaccto</p>
     <section>
@@ -25,4 +25,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.contacto {
+  align-content: center;
+  align-items: center;
+}
+</style>
