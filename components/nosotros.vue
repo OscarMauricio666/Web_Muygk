@@ -1,18 +1,16 @@
 <template>
   <div id="nosotros">
-    <h1>misión</h1>
-    <p class="fuente">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a
-      accusamus aliquid. Deserunt sapiente alias, inventore rerum, veritatis
-      quia ipsum sint ex delectus autem molestias ipsa expedita eaque maiores
-      dicta.
+    <h1 class="fuente margen">misión</h1>
+    <p class="fuente margen">
+      Contribuir a la sociedad al desarrollo por medio de la tecnologia. Ser
+      efectivo en el ambito tecnologico. Mantener investigación continua.
+      Calidad en todos nuestros procesos.
     </p>
-    <h1>visión</h1>
-    <p class="fuente">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis iure
-      maiores porro eos architecto, quam unde incidunt consectetur a voluptate
-      quae dolorum accusantium, magni, quibusdam impedit veritatis inventore
-      reiciendis minus.
+    <h1 class="fuente margen">visión</h1>
+    <p class="fuente margen">
+      Contribución a nivel mundial en desarrollo de tecnologia Software y
+      Hardware. Proporcionando empleos en todo el mundo. Utilizando los ultimos
+      avances de metodologías sociales organizativas.
     </p>
   </div>
 </template>

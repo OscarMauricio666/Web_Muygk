@@ -1,16 +1,25 @@
 <template>
   <div id="customers">
-    <p class="fuente">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni a
-      perferendis ipsa fugit excepturi vel commodi nemo dolore quidem
-      praesentium quo laboriosam repellat dolorem atque quaerat laudantium
-      fugiat, omnis odit!
-    </p>
-    <p>
-      jodorosky Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
-      repellendus ex cumque maxime unde a placeat dolor vitae, doloremque sunt
-      eum repellat eos accusamus cupiditate optio eius modi, eligendi assumenda.
-    </p>
+    <h1 class="margen">Nuestros Clientes</h1>
+    <p></p>
+    <section class="margen">
+      <h2>Web</h2>
+      <ul>
+        <li>Martha Reina Retail</li>
+      </ul>
+    </section>
+    <section class="margen">
+      <h2>Auditoria y Ascesoramiento</h2>
+      <ul>
+        <li>Granja Caninda Dejando Huella</li>
+      </ul>
+    </section>
+    <section class="margen">
+      <h2>Camáras</h2>
+      <ul>
+        <li>Animals Club</li>
+      </ul>
+    </section>
   </div>
 </template>
 

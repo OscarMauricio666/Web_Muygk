@@ -3,7 +3,7 @@
     <encabezado />
     <p>informacion de contaccto</p>
     <section>
-      <h2>telefono: 319257100</h2>
+      <h2>telefono: 3192571000</h2>
       <h2>correo: servicios@muygk.com</h2>
     </section>
     <contact />

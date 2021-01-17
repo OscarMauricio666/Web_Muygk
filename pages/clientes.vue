@@ -1,10 +1,6 @@
 <template>
   <div id="clientes">
     <encabezado />
-    <h3 class="fuente">
-      Estos bbbbbb son nuestrros clientes. Almost before we knew it, we had left
-      the ground.
-    </h3>
     <customers />
     <pie />
   </div>

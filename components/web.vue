@@ -1,6 +1,15 @@
 <template>
   <div class="web">
-    <h2>se diseñan paginas web, ajustadas a tus necesidades</h2>
+    <h2 class="margen">WEB</h2>
+    <p class="margen">Este tiempo nos a hecho cambiar rapidamente, afortunadamente tenemos
+      a la tecnología, para ayudarnos aceptar los cambios. 
+      Generamos tu pagina web a la medida, usamos las ultimas tecnologias en el mercado
+      Contactanos
+      <ul>
+        <li>Telefono: +57 3192571000</li>
+        <li>Correo servicioweb@muygk.com</li>
+      </ul>
+    </p>
   </div>
 </template>
 
