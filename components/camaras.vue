@@ -1,6 +1,6 @@
 <template>
   <div id="camaras">
-    <h3 class="margen">mosaico galería de camaás</h3>
+    <h3 class="margen fuente">mosaico galería de camaás</h3>
   </div>
 </template>
 

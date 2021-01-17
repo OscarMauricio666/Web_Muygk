@@ -1,7 +1,6 @@
 <template>
   <div id="informacion">
     <encabezado />
-    <h1>aqui se muestrran los datos para contactar un formulario</h1>
     <nosotros />
     <pie />
   </div>
