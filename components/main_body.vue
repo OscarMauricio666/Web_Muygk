@@ -1,5 +1,5 @@
 <template>
-  <div id="main_body">
+  <div class="main_body tran">
     <picture>
       <img src="../assets/CosmoNauta.jpg" alt="Fondo" />
     </picture>

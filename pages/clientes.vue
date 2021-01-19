@@ -1,8 +1,6 @@
 <template>
-  <div id="clientes">
-    <encabezado />
+  <div class="clientes">
     <customers />
-    <pie />
   </div>
 </template>
 
@@ -10,6 +8,7 @@
 import encabezado from "../components/encabezado";
 import pie from "../components/pie";
 import customers from "../components/customers";
+import en_pi from "../layouts/en_pi";
 export default {
   name: "clientes",
   head: {
@@ -19,7 +18,8 @@ export default {
     encabezado,
     pie,
     customers
-  }
+  },
+  layout: "en_pi"
 };
 </script>
 

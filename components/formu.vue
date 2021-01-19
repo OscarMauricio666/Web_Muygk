@@ -2,7 +2,7 @@
   <div class="formu">
     <form action="shoreseis@gmail.com">
       <div class="field">
-        <label class="label">Nombre</label>
+        <label class="label fuente">Nombre</label>
         <div class="control">
           <input
             class="input is-success"
@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="field">
-        <label class="label">Asunto</label>
+        <label class="label fuente">Asunto</label>
         <div class="control">
           <input
             class="input is-success"
@@ -28,18 +28,18 @@
         </div>
       </div>
       <div class="field">
-        <label class="label">Message</label>
+        <label class="label fuente">Mensaje</label>
         <div class="control">
           <textarea class="textarea" placeholder="Buen día ......"></textarea>
         </div>
       </div>
       <div class="field">
-        <label class="label">Tus datos de contacto, porfavor.</label>
-        <div class="control has-icons-left has-icons-right">
+        <label class="label fuente">Tus datos de contacto, porfavor.</label>
+        <div class="control">
           <input
             class="input is-danger"
             type="email"
-            placeholder="escribe aquí telefono o correo para contactarte"
+            placeholder="Escribe aquí telefono o correo para contactarte"
           />
           <span class="icon is-small is-left">
             <i class="fas fa-envelope"></i>
@@ -50,7 +50,7 @@
         </div>
         <p class="help is-danger">This email is invalid</p>
       </div>
-      <div class="field">
+      <div class="field fuente">
         <div class="control">
           <label class="checkbox">
             <input type="checkbox" />
@@ -72,7 +72,8 @@
 
 <script>
 export default {
-  name: "formu"
+  name: "formu",
+  transitions: "home"
 };
 </script>
 

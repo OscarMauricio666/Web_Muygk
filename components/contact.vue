@@ -10,7 +10,9 @@
 <script>
 export default {
   name: "contact"
+  // dokdokd
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>

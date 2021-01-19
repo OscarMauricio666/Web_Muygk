@@ -1,5 +1,5 @@
 <template>
-  <div id="news">
+  <div class="news trans">
     <h2>Noticias</h2>
   </div>
 </template>

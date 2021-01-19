@@ -2,11 +2,53 @@
   <div class="pie">
     <div class="container.is-fullhd">
       <div class="level">
+      <!-- ANCHOR Columna Uno -->
         <div class="level-left">
-          <div class="col_uno">aca van todos los atajos en lista</div>
+          <div class="col_uno">
+            <div class="list">
+            <ul>
+              <div class="list-item">
+                <li>
+                  <h2>Instagram</h2>
+                </li>
+              </div>
+              <div class="list-item">
+                <li>
+                  <h2>Facebook acá  van los atajos</h2>
+                </li>
+              </div>
+              <div class="list-item">
+                <li>
+                  <h2>Facebookododododod acá  van los atajos</h2>
+                </li>
+              </div>
+            </ul>
+          </div>
+          </div>
         </div>
+        <!--ANCHOR Columna Dos -->
         <div class="level-right">
-          <div class="col_dos">Redes Sociales</div>
+          <div class="col_dos">
+            <div class="list">
+            <ul>
+              <div class="list-item">
+                <li>
+                  <h2>Instagram</h2>
+                </li>
+              </div>
+              <div class="list-item">
+                <li>
+                  <h2>Facebook acá  van los atajos</h2>
+                </li>
+              </div>
+              <div class="list-item">
+                <li>
+                  <h2>Facebookododododod acá  van los atajos</h2>
+                </li>
+              </div>
+            </ul>
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -21,7 +63,7 @@ export default {
 
 <style scoped>
 .col_uno {
-  background-color: red;
+  background-color:rgb(81, 81, 223);
   display: inline-block;
   position: relative;
   width: 50vw;
@@ -29,7 +71,7 @@ export default {
   margin-right: auto;
 }
 .col_dos {
-  background-color: blue;
+  background-color: rgb(81, 81, 223);
   display: inline-block;
   position: absolute;
   width: 50vw;
@@ -41,5 +83,12 @@ export default {
 }
 .columns {
   display: flex;
+}
+.list {
+  padding: 2vw;
+  margin-left: 3px;
+}
+.list-item {
+  padding: 2px;
 }
 </style>

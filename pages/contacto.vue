@@ -1,10 +1,8 @@
 <template>
   <div class="contacto">
-    <encabezado />
     <h1 class="fuente margen">Contactanos</h1>
     <formu />
     <contact />
-    <pie />
   </div>
 </template>
 
@@ -13,6 +11,7 @@ import encabezado from "../components/encabezado";
 import pie from "../components/pie";
 import contact from "../components/contact";
 import formu from "../components/formu";
+import en_pi from "../layouts/en_pi"; 
 export default {
   name: "contacto",
   components: {
@@ -20,7 +19,8 @@ export default {
     pie,
     contact,
     formu
-  }
+  },
+  layout: "en_pi"
 };
 </script>
 

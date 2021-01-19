@@ -1,5 +1,5 @@
 <template>
-  <div id="ascesorias">
+  <div class="ascesorias">
     <h3 class="margen fuente">Ascesoriass</h3>
     <p class="margen fuente">
       El mundo esta cambiando, adaptate a las nuevas tecnologias, evoluciona con

@@ -1,13 +1,14 @@
 <template>
-  <div id="encabezado">
-    <nav class="navbar">
+  <div clase="encabezado">
+    <nav class="navbar-menu">
       <div class="navbar-brand">
         <nuxt-link to="/">
           <div class="logo">
             <img src="../assets/Logo.png" alt="Logo" />
           </div>
         </nuxt-link>
-        <div class="enlaces">
+        <div class="navbar-end">
+          <div class="enlaces navbar-item">
           <div class="fuente">
             <NuxtLink to="clientes">Clientes</NuxtLink>
             <NuxtLink to="informacion">Información</NuxtLink>
@@ -15,6 +16,7 @@
             <NuxtLink to="servicios">Servicios</NuxtLink>
             <NuxtLink to="contacto">Contacto</NuxtLink>
           </div>
+        </div>
         </div>
       </div>
     </nav>
@@ -45,6 +47,7 @@ export default {
   margin-top: 3vh;
   color: beige;
   align-content: flex-end;
+  justify-content: right;
 }
 
 .nuxt-link-active {
@@ -53,7 +56,19 @@ export default {
 a {
   text-decoration: none;
 }
-.logo {
-  background: yellow;
+.navbar-menu {
+  display: inline-flex;
+  justify-content: baseline;
+}
+.navbar-brand {
+  width: 67vw;
+}
+.navbar-end {
+  background: yellowgreen;
+  display: inline-block;
+  justify-items: end;
+  width: 33vw;
+  margin-right: 0px;
+  flex-grow: nowrap;
 }
 </style>

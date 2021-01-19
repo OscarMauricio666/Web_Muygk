@@ -1,12 +1,24 @@
 :root {
   --fuente_uno: "Comfortaa", cursive;
 }
-.tran {
-  transition: all 0.4s ease-in;
-  -webkit-transition: all 0.4s ease-in;
-  -moz-transition: all 0.4s ease-in;
-  -ms-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
+.trans {
+  transition: all 4s ease-in;
+  -webkit-transition: all 4s ease-in;
+  -moz-transition: all 4s ease-in;
+  -ms-transition: all 4s ease-in;
+  -o-transition: all 4s ease-in;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }
 .fuente {
   font-family: var(--fuente_uno);
@@ -16,4 +28,10 @@
 }
 .margen {
   margin: 3vw;
+}
+.img_cli {
+  display: inline;
+  height: 15vmax;
+  width: 15vmax;
+  border: 2px solid black;
 }

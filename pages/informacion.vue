@@ -1,8 +1,6 @@
 <template>
-  <div id="informacion">
-    <encabezado />
+  <div class="informacion">
     <nosotros />
-    <pie />
   </div>
 </template>
 
@@ -10,13 +8,15 @@
 import encabezado from "../components/encabezado";
 import pie from "../components/pie";
 import nosotros from "../components/nosotros";
+
 export default {
   name: "informacion",
   components: {
     encabezado,
     pie,
     nosotros
-  }
+  },
+  layout: "en_pi"
 };
 </script>
 
