@@ -54,16 +54,16 @@
         <div class="control">
           <label class="checkbox">
             <input type="checkbox" />
-            I agree to the <a href="#">terms and conditions</a>
+            I agree to the <a href="#">terminos y condiciones</a>
           </label>
         </div>
       </div>
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-link">Submit</button>
+          <button class="button is-link">Enviar</button>
         </div>
         <div class="control">
-          <button class="button is-link is-light">Cancel</button>
+          <button class="button is-link is-light">Cancelar</button>
         </div>
       </div>
     </form>
@@ -73,13 +73,13 @@
 <script>
 export default {
   name: "formu",
-  transitions: "home"
+  transitions: "home",
 };
 </script>
 
 <style scoped>
 .formu {
-  display: block;
+  display: flex;
   width: 93vw;
   margin: 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

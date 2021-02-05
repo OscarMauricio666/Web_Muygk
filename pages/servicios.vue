@@ -11,6 +11,9 @@ import ascesorias from "../components/ascesorias.vue";
 import Camaras from "../components/camaras.vue";
 import web from "../components/web";
 export default {
+  head: {
+    title: "Servicios"
+  },
   components: { ascesorias, Camaras, web },
   name: "servicios",
   layout: 'en_pi'

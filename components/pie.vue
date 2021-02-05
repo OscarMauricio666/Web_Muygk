@@ -1,53 +1,31 @@
 <template>
-  <div class="pie">
-    <div class="container.is-fullhd">
-      <div class="level">
+  <div class="pie fuente">
+    <div class="container">
       <!-- ANCHOR Columna Uno -->
-        <div class="level-left">
-          <div class="col_uno">
-            <div class="list">
-            <ul>
-              <div class="list-item">
-                <li>
-                  <h2>Instagram</h2>
-                </li>
-              </div>
-              <div class="list-item">
-                <li>
-                  <h2>Facebook acá  van los atajos</h2>
-                </li>
-              </div>
-              <div class="list-item">
-                <li>
-                  <h2>Facebookododododod acá  van los atajos</h2>
-                </li>
-              </div>
-            </ul>
+      <div class="col_uno">
+        <div class="list">
+          <div class="list-item">
+            <h2>Instagram</h2>
           </div>
+          <div class="list-item">
+            <h2>Facebook acá van los atajos</h2>
+          </div>
+          <div class="list-item">
+            <h2>Facebookododododod acá van los atajos</h2>
           </div>
         </div>
-        <!--ANCHOR Columna Dos -->
-        <div class="level-right">
-          <div class="col_dos">
-            <div class="list">
-            <ul>
-              <div class="list-item">
-                <li>
-                  <h2>Instagram</h2>
-                </li>
-              </div>
-              <div class="list-item">
-                <li>
-                  <h2>Facebook acá  van los atajos</h2>
-                </li>
-              </div>
-              <div class="list-item">
-                <li>
-                  <h2>Facebookododododod acá  van los atajos</h2>
-                </li>
-              </div>
-            </ul>
+      </div>
+      <!--ANCHOR Columna Dos -->
+      <div class="col_dos">
+        <div class="list">
+          <div class="list-item">
+            <h2>Instagram</h2>
           </div>
+          <div class="list-item">
+            <h2>Facebook acá van los atajos</h2>
+          </div>
+          <div class="list-item">
+            <h2>Facebookododododod acá van los atajos</h2>
           </div>
         </div>
       </div>
@@ -57,38 +35,54 @@
 
 <script>
 export default {
-  name: "pie"
+  name: "pie",
 };
 </script>
 
 <style scoped>
-.col_uno {
-  background-color:rgb(81, 81, 223);
-  display: inline-block;
+.pie {
+  display: flex;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   position: relative;
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
+  bottom: 0%;
+}
+.container {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col_uno {
+  display: flex;
+  width: auto;
+  margin: auto;
+  padding: 0%;
+  align-self: center;
 }
 .col_dos {
-  background-color: rgb(81, 81, 223);
-  display: inline-block;
-  position: absolute;
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-.pie {
-  width: 100vw;
-}
-.columns {
   display: flex;
+  width: auto;
+  margin: auto;
+  padding: 0%;
+  align-self: center;
 }
 .list {
-  padding: 2vw;
-  margin-left: 3px;
-}
-.list-item {
-  padding: 2px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin: 0%;
+  padding: 3%;
+  text-align: center;
 }
 </style>

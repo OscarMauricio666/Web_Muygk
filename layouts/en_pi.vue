@@ -1,8 +1,14 @@
 <template>
   <div class="en_pi">
-    <encabezado />
-    <nuxt />
-    <pie />
+    <header>
+      <encabezado />
+    </header>
+    <section>
+      <nuxt />
+    </section>
+    <footer>
+      <pie />
+    </footer>
   </div>
 </template>
 
@@ -11,10 +17,9 @@ import pie from "../components/pie.vue";
 import encabezado from "../components/encabezado";
 export default {
   components: { pie, encabezado },
-  name: "en_pi"
+  name: "en_pi",
 };
 </script>
 
-<style lang="css" scoped>
-
+<style scoped>
 </style>

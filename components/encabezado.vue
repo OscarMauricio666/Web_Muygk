@@ -1,25 +1,17 @@
 <template>
-  <div clase="encabezado">
-    <nav class="navbar-menu">
-      <div class="navbar-brand">
+  <div class="encabezado">
+      <div class="logo">
         <nuxt-link to="/">
-          <div class="logo">
             <img src="../assets/Logo.png" alt="Logo" />
-          </div>
         </nuxt-link>
-        <div class="navbar-end">
-          <div class="enlaces navbar-item">
-          <div class="fuente">
-            <NuxtLink to="clientes">Clientes</NuxtLink>
-            <NuxtLink to="informacion">Información</NuxtLink>
-            <NuxtLink to="noticias">Noticias</NuxtLink>
-            <NuxtLink to="servicios">Servicios</NuxtLink>
-            <NuxtLink to="contacto">Contacto</NuxtLink>
-          </div>
-        </div>
-        </div>
       </div>
-    </nav>
+      <div class="enlaces fuente">
+        <NuxtLink to="clientes" class="enlace">Clientes</NuxtLink>
+        <NuxtLink to="informacion" class="enlace">Información</NuxtLink>
+        <NuxtLink to="noticias" class="enlace">Noticias</NuxtLink>
+        <NuxtLink to="servicios" class="enlace">Servicios</NuxtLink>
+        <NuxtLink to="contacto" class="enlace">Contacto</NuxtLink>
+      </div>
   </div>
 </template>
 
@@ -35,40 +27,37 @@ export default {
 </script>
 
 <style scoped>
-#encabezado {
-  max-height: 10vh;
+.encabezado {
+  display: flex;
+  height: 9vh;
   border-color: black;
-  background-color: black;
-  margin: 0%;
-  padding: 0%;
+  width: 99vw;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.enlaces {
-  float: right;
-  margin-top: 3vh;
-  color: beige;
-  align-content: flex-end;
-  justify-content: right;
-}
+.logo{
+  width: 50%;
+  margin: auto;
+  }
 
+.enlaces {
+  display: flex;
+  flex-flow: row-reverse;
+  right: 0%;
+  height: 9vh;
+  width: 50%;
+}
+.enlace {
+  margin: auto;
+  justify-content: center;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
 .nuxt-link-active {
   color: azure;
 }
 a {
   text-decoration: none;
 }
-.navbar-menu {
-  display: inline-flex;
-  justify-content: baseline;
-}
-.navbar-brand {
-  width: 67vw;
-}
-.navbar-end {
-  background: yellowgreen;
-  display: inline-block;
-  justify-items: end;
-  width: 33vw;
-  margin-right: 0px;
-  flex-grow: nowrap;
-}
+
 </style>

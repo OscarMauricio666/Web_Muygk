@@ -10,7 +10,10 @@ import pie from "../components/pie";
 import nosotros from "../components/nosotros";
 
 export default {
-  name: "informacion",
+  head: {
+    title: "Información"
+  },
+  name: "Informacion",
   components: {
     encabezado,
     pie,

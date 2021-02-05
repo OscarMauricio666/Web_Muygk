@@ -11,6 +11,9 @@ import pie from "../components/pie";
 import en_pi from "../layouts/en_pi";
 export default {
   name: "app",
+  head: {
+    title: "Home"
+  },
   components: {
     encabezado,
     main_body,

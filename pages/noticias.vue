@@ -1,7 +1,5 @@
 <template>
-  <div class="noticias">
-    <h2>Estas son laaas noticias mas destacadas por ahora</h2>
-    <div>Cindy</div>
+  <div class="noticias">s
     <news />
   </div>
 </template>
@@ -9,6 +7,9 @@
 <script>
 import news from "../components/news";
 export default {
+  head: {
+    title: "Noticias"
+  },
   name: "noticias",
   components: {
     news
