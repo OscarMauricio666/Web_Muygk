@@ -1,17 +1,17 @@
 <template>
   <div class="encabezado">
-      <div class="logo">
-        <nuxt-link to="/">
-            <img src="../assets/Logo.png" alt="Logo" />
-        </nuxt-link>
-      </div>
-      <div class="enlaces fuente">
-        <NuxtLink to="clientes" class="enlace">Clientes</NuxtLink>
-        <NuxtLink to="informacion" class="enlace">Información</NuxtLink>
-        <NuxtLink to="noticias" class="enlace">Noticias</NuxtLink>
-        <NuxtLink to="servicios" class="enlace">Servicios</NuxtLink>
-        <NuxtLink to="contacto" class="enlace">Contacto</NuxtLink>
-      </div>
+    <div class="logo">
+      <nuxt-link to="/">
+        <img src="../assets/Logo.png" alt="Logo" />
+      </nuxt-link>
+    </div>
+    <div class="enlaces fuente">
+      <NuxtLink to="clientes" class="enlace">Clientes</NuxtLink>
+      <NuxtLink to="informacion" class="enlace">Información</NuxtLink>
+      <NuxtLink to="noticias" class="enlace">Noticias</NuxtLink>
+      <NuxtLink to="servicios" class="enlace">Servicios</NuxtLink>
+      <NuxtLink to="contacto" class="enlace">Contacto</NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -20,9 +20,9 @@ export default {
   name: "encabezado",
   data() {
     return {
-      count: 0
+      count: 0,
     };
-  }
+  },
 };
 </script>
 
@@ -35,10 +35,10 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.logo{
+.logo {
   width: 50%;
   margin: auto;
-  }
+}
 
 .enlaces {
   display: flex;
@@ -52,6 +52,7 @@ export default {
   justify-content: center;
   margin-left: 1.5%;
   margin-right: 1.5%;
+  font-weight: bold;
 }
 .nuxt-link-active {
   color: azure;
@@ -59,5 +60,4 @@ export default {
 a {
   text-decoration: none;
 }
-
 </style>

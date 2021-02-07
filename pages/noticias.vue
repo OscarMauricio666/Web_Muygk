@@ -1,5 +1,5 @@
 <template>
-  <div class="noticias">s
+  <div class="noticias">
     <news />
   </div>
 </template>
@@ -8,13 +8,13 @@
 import news from "../components/news";
 export default {
   head: {
-    title: "Noticias"
+    title: "Noticias",
   },
   name: "noticias",
   components: {
-    news
+    news,
   },
-  layout: 'en_pi'
+  layout: "en_pi",
 };
 </script>
 

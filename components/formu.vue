@@ -1,30 +1,22 @@
 <template>
   <div class="formu">
     <form action="shoreseis@gmail.com">
-      <div class="field">
-        <label class="label fuente">Nombre</label>
-        <div class="control">
-          <input
-            class="input is-success"
-            type="text"
-            placeholder="Escribe tu nombre aquí"
-          />
+      <div>
+        <div class="field">
+          <label class="label fuente">Nombre</label>
+          <div class="control">
+            <input
+              type="text"
+              placeholder="Escribe tu nombre aquí"
+              class="bloque"
+            />
+          </div>
         </div>
       </div>
       <div class="field">
         <label class="label fuente">Asunto</label>
-        <div class="control">
-          <input
-            class="input is-success"
-            type="text"
-            placeholder="Escribe el asunto aquí"
-          />
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-check"></i>
-          </span>
+        <div>
+          <input type="text" placeholder="Escribe el asunto aquí" />
         </div>
       </div>
       <div class="field">
@@ -83,7 +75,18 @@ export default {
   width: 93vw;
   margin: 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: column;
   padding: 2vw;
   border-radius: 3vh;
+}
+.field {
+  display: block;
+}
+.bloque {
+  display: block;
+  width: 100%;
+}
+.row {
+  display: flex;
 }
 </style>
