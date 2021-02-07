@@ -55,7 +55,7 @@ export default {
   font-weight: bold;
 }
 .nuxt-link-active {
-  color: azure;
+  color: yellowgreen;
 }
 a {
   text-decoration: none;
