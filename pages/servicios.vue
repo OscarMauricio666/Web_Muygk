@@ -22,8 +22,8 @@ export default {
   components: {
     encabezado,
     web,
-    Ascesorias,
-    Camaras,
+    ascesorias,
+    camaras,
     pie
   }
 };
