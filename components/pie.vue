@@ -48,7 +48,7 @@ export default {
   position: relative;
   bottom: 0%;
   justify-content: center;
-  background-color: #d4d4d4;
+  background-color: #050533;
 }
 .container {
   margin: 0%;
@@ -58,6 +58,7 @@ export default {
   width: auto;
   flex-wrap: wrap;
   justify-content: space-around;
+  color: #e34234;
 }
 .col_uno {
   display: flex;
@@ -83,5 +84,9 @@ export default {
   display: block;
   width: 100%;
   text-align: center;
+  color: #e34234;
+}
+h2 {
+  color: #e34234;
 }
 </style>

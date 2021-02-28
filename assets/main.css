@@ -2,6 +2,11 @@
   --fuente_uno: "Comfortaa", cursive;
 }
 
+html {
+  overflow-x: hidden;
+
+}
+
 .trans {
   transition: all 4s ease-in;
   -webkit-transition: all 4s ease-in;
@@ -84,4 +89,12 @@
   width: 100%;
   padding-left: 9%;
   font-size: 1.2em;
+}
+
+.f_white {
+  color: #F2F1E8;
+}
+
+.dark_blue {
+  color: #F2F1E8;
 }

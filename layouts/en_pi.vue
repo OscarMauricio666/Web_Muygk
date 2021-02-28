@@ -3,9 +3,9 @@
     <header>
       <encabezado />
     </header>
-    <section>
+    <article>
       <nuxt />
-    </section>
+    </article>
     <footer>
       <pie />
     </footer>
@@ -22,4 +22,16 @@ export default {
 </script>
 
 <style scoped>
+header {
+  margin: 0%;
+}
+article {
+  background-color: #0d698b;
+  margin-bottom: 0%;
+  color: #f2f1e8;
+}
+footer {
+  margin-top: 0%;
+  color: #e34234;
+}
 </style>

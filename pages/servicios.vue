@@ -12,12 +12,17 @@ import Camaras from "../components/camaras.vue";
 import web from "../components/web";
 export default {
   head: {
-    title: "Servicios"
+    title: "Servicios",
   },
   components: { ascesorias, Camaras, web },
   name: "servicios",
-  layout: 'en_pi'
+  layout: "en_pi",
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.servicios {
+  display: flex;
+  flex-flow: column;
+}
+</style>

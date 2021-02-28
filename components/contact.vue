@@ -1,18 +1,20 @@
 <template>
-  <div id="contact">
-    <section class="fuente margen">
-      <h3>Telefono: +57 319257 1000</h3>
-      <h3>Correo: contacto@muygk.com</h3>
-    </section>
+  <div class="contact fuente">
+    <h3>
+      Telefono: +57 319257 1000 <br />
+      contacto@muygk.com
+    </h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: "contact"
-  // dokdokd
+  name: "contact",
 };
 </script>
 
 <style scoped>
+h3 {
+  padding: 3vh;
+}
 </style>

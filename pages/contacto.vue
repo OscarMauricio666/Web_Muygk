@@ -1,12 +1,9 @@
 <template>
   <div class="contacto">
-    <h1 class="fuente margen">Contactanos</h1>
-    <section>
+    <div class="item">
       <formu />
-    </section>
-    <section>
       <contact />
-    </section>
+    </div>
   </div>
 </template>
 
@@ -33,7 +30,13 @@ export default {
 
 <style scoped>
 .contacto {
+  display: flex;
+  flex-flow: column;
   align-content: center;
   align-items: center;
+  margin-bottom: 0%;
+}
+.item {
+  margin-top: 3vh;
 }
 </style>
