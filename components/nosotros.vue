@@ -1,6 +1,6 @@
 <template>
   <div class="nosotros">
-    <div class="item" v-for="info in nosotros" :key="info.id">
+    <div class="item dark_blue" v-for="info in nosotros" :key="info.id">
       <div class="fila">
         <div class="titulo_2">
           <h2 class="fuente margen">{{ info.nombre }}</h2>
@@ -43,5 +43,13 @@ export default {
 .nosotros {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  box-shadow: 9%;
+  width: 81%;
+  margin: 3vh;
+  background-color: #f2f1e8;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="ascesorias">
+  <div class="ascesorias dark_blue">
     <div class="item">
       <article>
         <div class="fila">
@@ -31,5 +31,10 @@ export default {
 .ascesorias {
   display: flex;
   flex-direction: column;
+  box-shadow: 9%;
+  width: 81%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f1e8;
 }
 </style>

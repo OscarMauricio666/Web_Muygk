@@ -1,24 +1,28 @@
 <template>
-  <div class="formu dark_blue">
-    <div class="top">
-      <form action="shoreseis@gmail.com" class="margen">
-        <div>
-          <h1 class="dark_blue_ fuente margen titulo_1">Contactanos</h1>
-          <div class="field">
-            <label class="label fuente">Nombre</label>
-            <div class="control">
-              <input
-                type="text"
-                placeholder="Escribe tu nombre aquí"
-                class="bloque"
-              />
-            </div>
+  <div class="formu">
+    <form action="shoreseis@gmail.com" class="margen">
+      <div>
+        <div class="titulo_1 dark_blue">
+          <h1>Contactanos</h1>
+        </div>
+        <div class="field">
+          <label class="label fuente">Nombre</label>
+          <div class="control">
+            <input
+              type="text"
+              placeholder="Escribe tu nombre aquí"
+              class="bloque"
+            />
           </div>
         </div>
         <div class="field">
           <label class="label fuente">Asunto</label>
           <div>
-            <input type="text" placeholder="Escribe el asunto aquí" />
+            <input
+              type="text"
+              placeholder="Escribe el asunto aquí"
+              class="bloque"
+            />
           </div>
         </div>
         <div class="field">
@@ -31,7 +35,7 @@
           <label class="label fuente">Tus datos de contacto, porfavor.</label>
           <div class="control">
             <input
-              class="input is-danger"
+              class="input bloque"
               type="email"
               placeholder="Escribe aquí telefono o correo para contactarte"
             />
@@ -42,7 +46,6 @@
               <i class="fas fa-exclamation-triangle"></i>
             </span>
           </div>
-          <p class="help is-danger">This email is invalid</p>
         </div>
         <div class="field fuente">
           <div class="control">
@@ -52,16 +55,22 @@
             </label>
           </div>
         </div>
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-link">Enviar</button>
+        <div class="field is-grouped botones">
+          <div class="control enviar">
+            <button class="button is-link is is-focus fuente is-rounded enviar">
+              Enviar
+            </button>
           </div>
-          <div class="control">
-            <button class="button is-link is-light">Cancelar</button>
+          <div class="control cancelar">
+            <button
+              class="button is-link is-light fuente is-outlined is is-rounded is-danger"
+            >
+              Cancelar
+            </button>
           </div>
         </div>
-      </form>
-    </div>
+      </div>
+    </form>
   </div>
 </template>
 
@@ -90,11 +99,31 @@ export default {
 .field {
   display: block;
 }
+.label {
+  color: #050533;
+}
 .bloque {
   display: block;
   width: 100%;
 }
 .row {
   display: flex;
+}
+.botones {
+  display: flex;
+  flex-flow: row;
+}
+.enviar {
+  width: 81%;
+}
+.cancelar {
+  width: 15%;
+  right: 0.3px;
+}
+@media all and (max-width: 600px) {
+  .cancelar {
+    position: relative;
+    right: 9%;
+  }
 }
 </style>

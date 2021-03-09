@@ -1,10 +1,10 @@
 <template>
-  <div class="web dark_blue">
+  <div class="marketing dark_blue">
     <div class="item">
       <article>
         <div class="fila">
           <div class="titulo_2">
-            <h2 class="margen fuente">WEB</h2>
+            <h2 class="margen fuente">Marketing</h2>
           </div>
         </div>
         <div class="fila">
@@ -12,7 +12,7 @@
             <p class="margen fuente parrafo">
               Este tiempo nos a hecho cambiar rapidamente, afortunadamente
               tenemos a la tecnología, para ayudarnos aceptar los cambios.
-              Generamos tu pagina web a la medida, usamos las ultimas
+              Generamos tu pagina marketing a la medida, usamos las ultimas
               tecnologias en el mercado Contactanos
             </p>
           </div>
@@ -24,12 +24,12 @@
 
 <script>
 export default {
-  name: "web",
+  name: "marketing",
 };
 </script>
 
 <style scoped>
-.web {
+.marketing {
   display: flex;
   flex-direction: column;
   box-shadow: 9%;

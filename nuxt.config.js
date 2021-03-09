@@ -34,7 +34,6 @@ export default {
     icons: {
       solid:true,
       brands: true
-      
     }
 
   },
@@ -43,7 +42,6 @@ export default {
   modules: [
     '@nuxtjs/bulma'
   ],
-  
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

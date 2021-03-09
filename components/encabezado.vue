@@ -6,7 +6,7 @@
       </nuxt-link>
     </div>
     <div class="enlaces fuente">
-      <NuxtLink to="clientes" class="enlace">Clientes</NuxtLink>
+      <NuxtLink to="clientes" class="enlace enlace_u">Clientes</NuxtLink>
       <NuxtLink to="informacion" class="enlace">Información</NuxtLink>
       <NuxtLink to="noticias" class="enlace">Noticias</NuxtLink>
       <NuxtLink to="servicios" class="enlace">Servicios</NuxtLink>
@@ -43,7 +43,7 @@ export default {
 .enlaces {
   display: flex;
   flex-flow: row-reverse;
-  right: 0%;
+  right: 15%;
   height: 9vh;
   width: 50%;
 }
@@ -55,10 +55,46 @@ export default {
   font-weight: bold;
   color: #0d698b;
 }
+.enlace_u {
+  margin-right: 3vw;
+}
 .nuxt-link-active {
   color: #f2f1e8;
 }
 a {
   text-decoration: none;
+}
+
+@media all and (max-width: 600px) {
+  .encabezado {
+    display: flex;
+    height: 9vh;
+    width: 99vw;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    justify-content: center;
+  }
+  img {
+    display: block;
+    position: relative;
+    width: 33vw;
+    height: 6vh;
+  }
+  .enlaces {
+    display: flex;
+    flex-flow: row;
+    height: 50%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
 }
 </style>

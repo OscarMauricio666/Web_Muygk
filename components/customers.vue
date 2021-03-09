@@ -1,14 +1,9 @@
 <template>
-  <div class="customers">
-    <div class="item">
+  <div class="customers dark_blue">
+    <div>
       <article>
         <h1 class="margen fuente titulo_1">Nuestros Clientes</h1>
-        <p class="margen fuente">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          nesciunt sapiente saepe eum. Sed corporis ratione quis! Fuga hic
-          libero nam officiis quos architecto, unde, suscipit accusamus ratione
-          quod earum.
-        </p>
+        <p class="margen fuente">Estos son unos de nuestros clientes</p>
       </article>
     </div>
     <div class="item" v-for="servicio in servicios" :key="servicio.id">
@@ -54,7 +49,7 @@ export default {
         },
         {
           id: "2",
-          nombre: "Auditoria y Ascesoramiento",
+          nombre: "Ascesoramiento",
           cliente: "Granja Canina dejando Huella",
           parrafo:
             "Organización que presta servicios de cuidado de mascotas, con una trayectora de mas de 15 años en el mercado. se ha sabido matener como gran refernte en el sector de cuidado de mascotas en la ciudad de Bogotá",
@@ -73,15 +68,26 @@ export default {
 </script>
 
 <style scoped>
+.customers {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 6vh;
+  position: relative;
+}
+.item {
+  box-shadow: 9%;
+  width: 81%;
+  background-color: #f2f1e8;
+  margin-top: 3%;
+}
 .logo {
   display: flex;
   width: 50%;
 }
 .parrafo {
   padding-left: 12%;
-}
-
-.margen {
-  margin: 1.8%;
 }
 </style>
