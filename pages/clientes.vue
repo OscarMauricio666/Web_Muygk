@@ -1,16 +1,11 @@
 <template>
-  <div id="clientes">
-    <encabezado />
-    <h3 class="fuente">
-      Estos bbbbbb son nuestrros clientes. Almost before we knew it, we had left
-      the ground.
-    </h3>
+  <div class="clientes">
     <customers />
-    <pie />
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import encabezado from "../components/desing/encabezado";
 import pie from "../components/desing/pie";
 import customers from "../components/informacion/customers";
@@ -18,13 +13,23 @@ export default {
   name: "clientes",
   head: {
     title: "Clientes"
+=======
+import customers from "../components/customers";
+export default {
+  name: "clientes",
+  head: {
+    title: "Nuestros Clientes",
+>>>>>>> fonts_14_1_21
   },
   components: {
-    encabezado,
-    pie,
-    customers
-  }
+    customers,
+  },
+  layout: "en_pi",
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.clientes {
+  padding: 3%;
+}
+</style>

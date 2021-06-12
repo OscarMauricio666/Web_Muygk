@@ -1,27 +1,29 @@
 <template>
-  <div id="noticias">
-    <encabezado />
-    <h2>Estas son laaas noticias mas destacadas por ahora</h2>
-    <div>Cindy</div>
+  <div class="noticias">
     <news />
-    <pie />
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import encabezado from "../components/desing/encabezado";
 import pie from "../components/desing/pie";
 import news from "../components/news/news";
+=======
+import news from "../components/news";
+>>>>>>> fonts_14_1_21
 export default {
+  head: {
+    title: "Noticias",
+  },
   name: "noticias",
   head: {
     title: "Noticias"
   },
   components: {
-    encabezado,
-    pie,
-    news
-  }
+    news,
+  },
+  layout: "en_pi",
 };
 </script>
 

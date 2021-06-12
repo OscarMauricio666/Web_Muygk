@@ -9,11 +9,25 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@nuxtjs/bulma": "^1.3.0",
+    "bulma": "^0.9.1",
+>>>>>>> fonts_14_1_21
     "core-js": "^3.6.5",
+    "font-awesome": "^4.7.0",
     "nuxt": "^2.14.6",
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@nuxtjs/vuetify": "^1.11.2"
+=======
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+>>>>>>> fonts_14_1_21
   }
 }

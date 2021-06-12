@@ -1,10 +1,7 @@
-.tran {
-  transition: all 0.4s ease-in;
-  -webkit-transition: all 0.4s ease-in;
-  -moz-transition: all 0.4s ease-in;
-  -ms-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
+:root {
+  --fuente_uno: "Comfortaa", cursive;
 }
+<<<<<<< HEAD
 .fuentee {
   font-family: "Kufam", cursive;
 }
@@ -13,4 +10,106 @@
   font-family: "Kufam", cursive;
   font-style: normal;
   src: url("Kufam-Italic-VariableFont_wght.ttf") format("truetype");
+=======
+
+html {
+  overflow-x: hidden;
+
+}
+
+.trans {
+  transition: all 4s ease-in;
+  -webkit-transition: all 4s ease-in;
+  -moz-transition: all 4s ease-in;
+  -ms-transition: all 4s ease-in;
+  -o-transition: all 4s ease-in;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.fuente {
+  font-family: var(--fuente_uno);
+}
+
+.mau {
+  background: green;
+}
+
+.margen {
+  margin: 3vw;
+}
+
+.img_cli {
+  display: inline;
+  height: 15vmax;
+  width: 15vmax;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex-basis: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.titulo_1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 6vh;
+}
+
+.titulo_2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  justify-content: center;
+  margin-left: 6%;
+  font-size: 1.5em;
+}
+
+.titulo_3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 9%;
+  font-size: 1.2em;
+}
+
+.f_white {
+  color: #F2F1E8;
+}
+
+.dark_blue {
+  color: #050533;
+
+>>>>>>> fonts_14_1_21
 }

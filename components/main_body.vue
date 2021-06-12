@@ -1,11 +1,11 @@
 <template>
-  <div id="main_body">
-    <picture>
-      <img
-        src="https://images.unsplash.com/photo-1609974631382-441d02050871?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80"
-        alt="Fondo"
-      />
-    </picture>
+  <div class="main_body tran">
+    <div class="margen">
+      <picture>
+        <img src="../assets/CosmoNauta.jpg" alt="Fondo" />
+      </picture>
+      <p class="fuente">TECNOLOGÍA A TU ALCANCE</p>
+    </div>
   </div>
 </template>
 
@@ -14,15 +14,67 @@ export default {
   name: "main_body",
   data() {
     return {
-      msg: ""
+      msg: "",
     };
-  }
+  },
 };
 </script>
 
 <style scoped>
-#main_body {
-  height: 100vh;
-  width: 100vw;
+.main_body {
+  display: flex;
+  flex-direction: column;
+  width: 99vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  position: relative;
 }
+picture {
+  min-height: 87%;
+}
+img {
+  border-radius: 1.5%;
+}
+p {
+  position: absolute;
+  left: 9%;
+  top: 66%;
+  font-size: 3em;
+  font-weight: bold;
+  color: #e34234;
+}
+@media all and (max-width: 600px) {
+  .main_body {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    position: relative;
+  }
+  picture {
+    min-height: 87%;
+  }
+  img {
+    border-radius: 1.5%;
+  }
+  p {
+    position: absolute;
+    left: 9%;
+    top: 33%;
+    font-size: 3em;
+    font-weight: bold;
+    color: #e34234;
+  }
+}
+/* @media all and (max-width: 320px) {
+  p {
+    position: absolute;
+    left: 9%;
+    top: 33%;
+    font-size: 3em;
+    font-weight: bold;
+    color: #e34234;
+  }
+} */
 </style>
